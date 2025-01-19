@@ -36,8 +36,8 @@ button {
   font-family: inherit;
   display: inline-block;
   position: relative;
-  padding: 8px 25px;
-  margin-right: 15px;
+  padding: 8px 22px;
+  margin-right: 12px;
   cursor: pointer;
   overflow: hidden;
   border: 1px solid black;
@@ -132,7 +132,7 @@ footer a:hover{
 @media (max-width: 1400px) {
     /* Estilos para dispositivos menores a 1400px */
     .section-1{
-        width: 90%;
+        width: 70%;
         margin: auto;
     }
     .main-section1{
@@ -142,16 +142,13 @@ footer a:hover{
 
 @media (max-width: 1200px) {
     /* Estilos para dispositivos menores a 1200px */
-    .section-1{
-        width: 90%;
-        margin: auto;
-    }
+    
 }
 @media (max-width: 992px) {
     /* Estilos para dispositivos menores a 992px */
-    .section-1{
-        width: 100%;
-        margin: auto;
+    .main-section1 img{
+        width: 15rem;
+        height: 15rem;
     }
 }
 @media (max-width: 768px) {
@@ -160,10 +157,8 @@ footer a:hover{
         width: 100%;
         margin: auto;
     }
-    .main-section1 img{
-        width: 15rem;
-        height: 15rem;
-    }
+    
+    
 }
 @media (max-width: 576px){
     /* Estilos para dispositivos menores a 576px */
@@ -172,10 +167,7 @@ footer a:hover{
         width: 100%;
         margin: auto;
     }
-    .main-section1 img{
-        width: 15rem;
-        height: 15rem;
-    }
+    
     /*seccion 2*/
     
 }
