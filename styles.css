@@ -46,7 +46,7 @@ button {
   font-size: 17px;
   font-weight: 500;
   color: black;
-  background-color: var(--bg-color);
+  background-color: #fff;
 }
 
 button:before {
