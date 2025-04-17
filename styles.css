@@ -95,6 +95,7 @@ button:active:before {
     width: 22rem;
     height: 22rem;
     border-radius: 50%;
+    object-fit: cover;
 }
 .main-section1 span{
     font-family: 'great-vibes';
