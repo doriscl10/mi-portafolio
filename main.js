@@ -3,3 +3,6 @@ document.getElementById("miBtn").addEventListener("click", function () {
 document.getElementById("btnDemo").addEventListener("click", function() {
     window.open("https://vanile.fixa.digital", "_blank");
 });
+document.getElementById("btnDemo2").addEventListener("click", function() {
+    window.open("https://doris-product-list.netlify.app/", "_blank");
+});
