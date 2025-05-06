@@ -119,6 +119,10 @@ button:active:before {
     width: 70%;
     margin-left: 15%;
 }
+#projects img{
+    height: 200px;
+    object-fit: cover;
+}
 /*seccion 6*/
 .tech-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -151,11 +155,35 @@ footer a:hover{
         width: 15rem;
         height: 15rem;
     }
+    .section-2{
+        width: 80%;
+        margin: auto;
+    }
+    .section-3{
+        width: 80%;
+        margin: auto;
+    }
+    .section-5{
+        width: 80%;
+        margin: auto;
+    }
 }
 @media (max-width: 768px) {
     /* Estilos para dispositivos menores a 768px */
     .section-1{
         width: 100%;
+        margin: auto;
+    }
+    .section-2{
+        width: 80%;
+        margin: auto;
+    }
+    .section-3{
+        width: 80%;
+        margin: auto;
+    }
+    .section-5{
+        width: 80%;
         margin: auto;
     }
     
@@ -168,6 +196,19 @@ footer a:hover{
         width: 100%;
         margin: auto;
     }
+    .section-2{
+        width: 90%;
+        margin: auto;
+    }
+    .section-3{
+        width: 90%;
+        margin: auto;
+    }
+    .section-5{
+        width: 90%;
+        margin: auto;
+    }
+   
     
     /*seccion 2*/
     
