@@ -1,5 +1,7 @@
-document.getElementById("miBtn").addEventListener("click", function () {
+document.getElementById("miBtnCv").addEventListener("click", function () {
     window.open("curriculum.pdf", "_blank");});
+document.getElementById("miBtnLn").addEventListener("click", function () {
+    window.open("https://www.linkedin.com/in/doris-condori-limachi/", "_blank");});
 document.getElementById("btnDemo").addEventListener("click", function() {
     window.open("https://vanile.fixa.digital", "_blank");
 });
