@@ -13,3 +13,4 @@ document.getElementById("btnDemo2").addEventListener("click", function () {
 document.getElementById("btnDemo3").addEventListener("click", function () {
   window.open("https://hemolab.pe/", "_blank");
 });
+document.getElementById("year").textContent = new Date().getFullYear();
