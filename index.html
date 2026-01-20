@@ -1,296 +1,381 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <!-- Metadatos -->
-    <meta charset="UTF-8">
-    <meta name="author" content="Doris Condori">
-    <meta name="description" content="Portafolio de desarrollo web de Doris Condori">
-    <meta name="keywords" content="HTML, CSS, JavaScript, PHP">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="author" content="Doris Condori" />
+    <meta
+      name="description"
+      content="Portafolio de desarrollo web de Doris Condori"
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, PHP, doris-condori-limachi, practicante"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Titulo -->
-    <title>Doris Condori | Desarrollo Web</title>
+    <title>Doris Condori</title>
     <!-- Fiveicon -->
-     <link rel="icon" href="imgs/icon.png">
+    <link rel="icon" href="imgs/icon.png" />
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
     <!-- Fontawesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    rel="stylesheet"/>
-</head>
-<body>
-  <!-- Barra de navegacion -->
-  <nav class="navbar navbar-expand-md navbar-light">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse d-md-flex justify-content-md-end" id="navbarTogglerDemo01">
-        <ul class="navbar-nav d-flex justify-content-center align-items-center me-md-5">
-          <li class="nav-item px-3">
-            <a class="nav-link" href="#about">Sobre mí</a>
-          </li>
-          <li class="nav-item px-3">
-            <a class="nav-link" href="#experience">Experiencia</a>
-          </li>
-          <li class="nav-item px-3">
-            <a class="nav-link" href="#projects">Proyectos</a>
-          </li>
-          <li class="nav-item px-3">
-            <a class="nav-link" href="#tecs">Tecnologías</a>
-          </li>
-        </ul>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-md-flex justify-content-md-end"
+          id="navbarTogglerDemo01"
+        >
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center me-md-5"
+          >
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#about">Sobre mí</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#experience">Experiencia</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#projects">Proyectos</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#tecs">Tecnologías</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <section class="container-fluid p-0 mb-5">
-    <div class="section-1 mt-3 mt-lg-5">
-      <div class="pb-4">
-        <h1 class="fw-bold text-center text-lg-start">Desarrolladora Web Frontend</h1>
-      </div>
-      <div class="main-section1 d-lg-flex text-center text-lg-start">
-        <img src="imgs/newprofile.png" alt="">
-        <div class="hero-right d-flex flex-column align-items-center align-items-lg-start">
-          <h4>Hola, soy Doris</h4>
-          <p class="lh-base mt-2">Poseo un año de experiencia construyendo interfaces funcionales y modernas. He usado Linux, aplico buenas prácticas en mis proyectos y nunca dejo de aprender. Me gusta crear cosas útiles que también se vean bien.</p>
-          <div class="mb-4">
-            <button id="miBtnCv">Curriculum</button>
-            <button id="miBtnLn">Linkedin</button>
-          </div>
+    </nav>
+    <section class="container-fluid p-0 mb-5">
+      <div class="section-1 mt-3 mt-lg-5">
+        <div class="pb-4">
+          <h1 class="fw-bold text-center text-lg-start">
+            Desarrolladora Web Frontend
+          </h1>
+        </div>
+        <div class="main-section1 d-lg-flex text-center text-lg-start">
+          <img src="imgs/newprofile.png" alt="" />
+          <div
+            class="hero-right d-flex flex-column align-items-center align-items-lg-start"
+          >
+            <h4>Hola, soy Doris</h4>
+            <p class="lh-base mt-2">
+              Poseo un año de experiencia construyendo interfaces funcionales y
+              modernas. He usado Linux, aplico buenas prácticas en mis proyectos
+              y nunca dejo de aprender. Me gusta crear cosas útiles que también
+              se vean bien.
+            </p>
+            <div class="mb-4">
+              <button id="miBtnCv">Curriculum</button>
+              <button id="miBtnLn">Linkedin</button>
+            </div>
             <span class="mt-5">Doris Condori</span>
-        </div>
-      </div>
-    </div>
-  </section>
-  <hr class="line">
-  <section class="container-fluid" id="about">
-    <div class="row section-2 text-center text-md-start mt-5">
-      <div class="col-12 col-md-6 col-lg-4 mb-4">
-        <h5>Email</h5>
-        <p>doris.condori10@gmail.com</p>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4 mb-4">
-        <h5>Teléfono</h5>
-        <p>(51) 963105975</p>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4 mb-4">
-        <h5>Ciudad</h5>
-        <p>Lima - Perú</p>
-      </div>
-    </div>
-  </section>
-  <section class="container-fluid">
-    <div class="row section-3 mt-5">
-      <div class="col-12 col-lg-4 text-center text-md-start mb-4">
-        <h2>Educación</h2>
-      </div>
-      <div class="row col-12 col-lg-8 p-0 m-0">
-        <div class="col-12 col-md-6 mb-5">
-          <h5>Ingeniería de Software con IA</h5>
-          <span class="fst-italic">2022 - 2024</span>
-          <p>SENATI</p>
-        </div>
-        <div class="col-12 col-md-6 mb-5">
-          <h5>Inglés</h5>
-          <span class="fst-italic">2016 - 2019</span>
-          <p>Británico</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <hr class="line">
-  <section class="container-fluid" id="experience">
-    <div class="row section-3 mt-5">
-      <div class="col-12 col-lg-4 text-center text-md-start mb-4">
-        <h2>Experiencia</h2>
-      </div>
-      <div class="col-12 col-lg-8">
-        <div class="col-12 mb-5">
-          <h5>Fixa Digital</h5>
-          <span class="fst-italic">agosto 2024 - marzo 2025</span>
-          <p>Participé en el desarrollo de un SaaS eCommerce 
-            utilizando Vue.js y Tailwind, gestionando avances 
-            en GitLab. También colaboré en el diseño y creación 
-            de sitios web con WordPress, destacando por mi creatividad 
-            y atención al detalle.</p>
-        </div>
-        <div class="col-12 mb-5">
-          <h5>Inference Labs9</h5>
-          <span class="fst-italic">julio 2023 - enero 2024</span>
-          <p>Colaboré en el desarrollo de la página web de la empresa 
-            con WordPress, utilizando Figma para diseñar y prototipar 
-            interfaces. Además, formé parte del equipo de soporte técnico 
-            de Five9, brindando asistencia y soluciones eficientes a los usuarios.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <hr class="line">
-  <section id="projects" class="mb-5">
-    <div class="section-5 text-center my-5">
-      <h2>Proyectos</h2>
-    </div>
-    <div class="row row-cols-1 row-cols-md-3 g-4 section-5 mb-5">
-      <div class="col-12 col-md-6 col-xl-4 ">
-        <div class="card h-100 rounded-0">
-          <img src="imgs/cap1.png" class="card-img-top" alt="..." width="300" height="210">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">Pastelería Vanilé</h5>
-            <p class="card-text">Desarrollé la landing page de una pastelería con Vanilla JS, aplicando buenas prácticas de código limpio. Me enfoqué en una experiencia visual atractiva y responsiva, utilizando Git para el control de versiones y trabajo colaborativo.</p>
-            <div class="d-flex justify-content-between mt-auto">
-              <button id="btnDemo" class="ms-auto"> Demo
-              </button>
-            </div>
-            
-
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-xl-4 ">
-        <div class="card h-100 rounded-0">
-          <img src="imgs/cap2.png" class="card-img-top" alt="...">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">Carrito de Compras</h5>
-            <p class="card-text">Desarrollé esta app con Vue.js, usando Tailwind CSS y PrimeVue. Muestra una lista de productos y un carrito de compras interactivo donde el usuario puede agregar, quitar y confirmar productos.</p>
-            <div class="d-flex justify-content-between mt-auto">
-              <button id="btnDemo2" class="ms-auto"> Demo
-              </button>
-            </div>
+    </section>
+    <hr class="line" />
+    <section class="container-fluid" id="about">
+      <div class="row section-2 text-center text-md-start mt-5">
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <h5>Email</h5>
+          <p>doris.condori10@gmail.com</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <h5>Teléfono</h5>
+          <p>(51) 963105975</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <h5>Ciudad</h5>
+          <p>Lima - Perú</p>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid">
+      <div class="row section-3 mt-5">
+        <div class="col-12 col-lg-4 text-center text-md-start mb-4">
+          <h2>Educación</h2>
+        </div>
+        <div class="row col-12 col-lg-8 p-0 m-0">
+          <div class="col-12 col-md-6 mb-5">
+            <h5>Ingeniería de Software con IA</h5>
+            <span class="fst-italic">2022 - 2024</span>
+            <p>SENATI</p>
+          </div>
+          <div class="col-12 col-md-6 mb-5">
+            <h5>Inglés</h5>
+            <span class="fst-italic">2016 - 2019</span>
+            <p>Británico</p>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-xl-4">
-        <div class="card h-100 rounded-0">
-          <img src="imgs/cap3.png" class="card-img-top" alt="...">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">Sitio Web Hemolab</h5>
-            <p class="card-text">Apoyé en el desarrollo de un sitio web con WordPress para una clínica, destacando sus servicios de forma clara.</p>
-            <div class="d-flex justify-content-between mt-auto">
-              <button id="btnDemo3" class="ms-auto"> Demo
-              </button>
+    </section>
+    <hr class="line" />
+    <section class="container-fluid" id="experience">
+      <div class="row section-3 mt-5">
+        <div class="col-12 col-lg-4 text-center text-md-start mb-4">
+          <h2>Experiencia</h2>
+        </div>
+        <div class="col-12 col-lg-8">
+          <div class="col-12 mb-5">
+            <h5>Fixa Digital</h5>
+            <span class="fst-italic">agosto 2024 - marzo 2025</span>
+            <p>
+              Participé en el desarrollo de un SaaS eCommerce utilizando Vue.js
+              y Tailwind, gestionando avances en GitLab. También colaboré en el
+              diseño y creación de sitios web con WordPress, destacando por mi
+              creatividad y atención al detalle.
+            </p>
+          </div>
+          <div class="col-12 mb-5">
+            <h5>Inference Labs9</h5>
+            <span class="fst-italic">julio 2023 - enero 2024</span>
+            <p>
+              Colaboré en el desarrollo de la página web de la empresa con
+              WordPress, utilizando Figma para diseñar y prototipar interfaces.
+              Además, formé parte del equipo de soporte técnico de Five9,
+              brindando asistencia y soluciones eficientes a los usuarios.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="line" />
+    <section id="projects" class="mb-5">
+      <div class="section-5 text-center my-5">
+        <h2>Proyectos</h2>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 section-5 mb-5">
+        <div class="col-12 col-md-6 col-xl-4">
+          <div class="card h-100 rounded-0">
+            <img
+              src="imgs/cap1.png"
+              class="card-img-top"
+              alt="..."
+              width="300"
+              height="210"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Pastelería Vanilé</h5>
+              <p class="card-text">
+                Desarrollé la landing page de una pastelería con Vanilla JS,
+                aplicando buenas prácticas de código limpio. Me enfoqué en una
+                experiencia visual atractiva y responsiva, utilizando Git para
+                el control de versiones y trabajo colaborativo.
+              </p>
+              <div class="d-flex justify-content-between mt-auto">
+                <button id="btnDemo" class="ms-auto">Demo</button>
+              </div>
             </div>
           </div>
         </div>
+        <div class="col-12 col-md-6 col-xl-4">
+          <div class="card h-100 rounded-0">
+            <img src="imgs/cap2.png" class="card-img-top" alt="..." />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Carrito de Compras</h5>
+              <p class="card-text">
+                Desarrollé esta app con Vue.js, usando Tailwind CSS y PrimeVue.
+                Muestra una lista de productos y un carrito de compras
+                interactivo donde el usuario puede agregar, quitar y confirmar
+                productos.
+              </p>
+              <div class="d-flex justify-content-between mt-auto">
+                <button id="btnDemo2" class="ms-auto">Demo</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4">
+          <div class="card h-100 rounded-0">
+            <img src="imgs/cap3.png" class="card-img-top" alt="..." />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Sitio Web Hemolab</h5>
+              <p class="card-text">
+                Apoyé en el desarrollo de un sitio web con WordPress para una
+                clínica, destacando sus servicios de forma clara.
+              </p>
+              <div class="d-flex justify-content-between mt-auto">
+                <button id="btnDemo3" class="ms-auto">Demo</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      
-      </div>
-    </div>
+    </section>
+    <hr class="line" />
+    <section class="mb-5" id="tecs">
+      <div class="container-fluid section-5 text-center">
+        <!-- Título -->
+        <h2 class="my-5">Tecnologías</h2>
 
-  </section>
-  <hr class="line">
-  <section class="mb-5" id="tecs">
-    <div class="container-fluid section-5 text-center">
-      <!-- Título -->
-      <h2 class="my-5">Tecnologías</h2>
-      
-      <!-- Grid de tecnologías -->
-      <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-4">
-        <!-- HTML -->
-        <div class="col-6 col-lg-4 col-xl-3">
-          <div class="tech-card bg-transparent p-2 p-lg-5">
-            <img src="imgs/html.png" alt="" width="50" height="50">
-            <p class="mt-2 mb-0">HTML</p>
+        <!-- Grid de tecnologías -->
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-4">
+          <!-- HTML -->
+          <div class="col-6 col-lg-4 col-xl-3">
+            <div class="tech-card bg-transparent p-2 p-lg-5">
+              <img src="imgs/html.png" alt="" width="50" height="50" />
+              <p class="mt-2 mb-0">HTML</p>
+            </div>
           </div>
-        </div>
-        <!-- CSS -->
-        <div class="col-6 col-lg-4 col-xl-3">
-          <div class="tech-card bg-transparent p-2 p-lg-5">
-            <img src="imgs/css.png" alt="" width="50" height="50">
-            <p class="mt-2 mb-0">CSS</p>
+          <!-- CSS -->
+          <div class="col-6 col-lg-4 col-xl-3">
+            <div class="tech-card bg-transparent p-2 p-lg-5">
+              <img src="imgs/css.png" alt="" width="50" height="50" />
+              <p class="mt-2 mb-0">CSS</p>
+            </div>
           </div>
-        </div>
-        <!-- Tailwind -->
-        <div class="col-6 col-lg-4 col-xl-3">
-          <div class="tech-card bg-transparent p-2 p-lg-5">
-            <img src="imgs/js.png" alt="" width="50" height="50">
-            <p class="mt-2 mb-0">JavaScript</p>
+          <!-- Tailwind -->
+          <div class="col-6 col-lg-4 col-xl-3">
+            <div class="tech-card bg-transparent p-2 p-lg-5">
+              <img src="imgs/js.png" alt="" width="50" height="50" />
+              <p class="mt-2 mb-0">JavaScript</p>
+            </div>
           </div>
-        </div>
-        <!-- Bootstrap -->
-        <div class="col-6 col-lg-4 col-xl-3">
-          <div class="tech-card bg-transparent p-2 p-lg-5">
-            <img src="imgs/bootstrap.png" alt="" width="60" height="50">
-            <p class="mt-2 mb-0">Bootstrap</p>
+          <!-- Bootstrap -->
+          <div class="col-6 col-lg-4 col-xl-3">
+            <div class="tech-card bg-transparent p-2 p-lg-5">
+              <img src="imgs/bootstrap.png" alt="" width="60" height="50" />
+              <p class="mt-2 mb-0">Bootstrap</p>
+            </div>
           </div>
-        </div>
-        <!-- TailwindCSS -->
-        <div class="col-6 col-lg-4 col-xl-3">
-          <div class="tech-card bg-transparent p-2 p-lg-5">
-            <img src="imgs/tailwind.png" alt="" width="75" height="50">
-            <p class="mt-2 mb-0">TailwindCSS</p>
+          <!-- TailwindCSS -->
+          <div class="col-6 col-lg-4 col-xl-3">
+            <div class="tech-card bg-transparent p-2 p-lg-5">
+              <img src="imgs/tailwind.png" alt="" width="75" height="50" />
+              <p class="mt-2 mb-0">TailwindCSS</p>
+            </div>
           </div>
-        </div>
-        <!-- WordPress -->
-        <div class="col-6 col-lg-4 col-xl-3">
-          <div class="tech-card bg-transparent p-2 p-lg-5">
-            <img src="imgs/wordpress.png" alt="" width="50" height="50">
-            <p class="mt-2 mb-0">WordPress</p>
+          <!-- WordPress -->
+          <div class="col-6 col-lg-4 col-xl-3">
+            <div class="tech-card bg-transparent p-2 p-lg-5">
+              <img src="imgs/wordpress.png" alt="" width="50" height="50" />
+              <p class="mt-2 mb-0">WordPress</p>
+            </div>
           </div>
-        </div>
-        <!-- Figma -->
-        <div class="col-6 col-lg-4 col-xl-3">
-          <div class="tech-card bg-transparent p-2 p-lg-5">
-            <img src="imgs/figma.png" alt="" width="40" height="50">
-            <p class="mt-2 mb-0">Figma</p>
+          <!-- Figma -->
+          <div class="col-6 col-lg-4 col-xl-3">
+            <div class="tech-card bg-transparent p-2 p-lg-5">
+              <img src="imgs/figma.png" alt="" width="40" height="50" />
+              <p class="mt-2 mb-0">Figma</p>
+            </div>
           </div>
-        </div>
-        <!-- Vue.js -->
-        <div class="col-6 col-lg-4 col-xl-3">
-          <div class="tech-card bg-transparent p-2 p-lg-5">
-            <img src="imgs/vue.png" alt="" width="50" height="50">
-            <p class="mt-2 mb-0">Vue.js</p>
+          <!-- Vue.js -->
+          <div class="col-6 col-lg-4 col-xl-3">
+            <div class="tech-card bg-transparent p-2 p-lg-5">
+              <img src="imgs/vue.png" alt="" width="50" height="50" />
+              <p class="mt-2 mb-0">Vue.js</p>
+            </div>
           </div>
-        </div>
-        <!-- React -->
-        <div class="col-6 col-lg-4 col-xl-3">
-          <div class="tech-card bg-transparent p-2 p-lg-5">
-            <img src="imgs/react.png" alt="" width="50" height="50">
-            <p class="mt-2 mb-0">React.js</p>
+          <!-- React -->
+          <div class="col-6 col-lg-4 col-xl-3">
+            <div class="tech-card bg-transparent p-2 p-lg-5">
+              <img src="imgs/react.png" alt="" width="50" height="50" />
+              <p class="mt-2 mb-0">React.js</p>
+            </div>
           </div>
-        </div>
-        <!-- Git -->
-        <div class="col-6 col-lg-4 col-xl-3">
-          <div class="tech-card bg-transparent p-2 p-lg-5">
-            <img src="imgs/git.png" alt="" width="50" height="50">
-            <p class="mt-2 mb-0">Git</p>
+          <!-- Git -->
+          <div class="col-6 col-lg-4 col-xl-3">
+            <div class="tech-card bg-transparent p-2 p-lg-5">
+              <img src="imgs/git.png" alt="" width="50" height="50" />
+              <p class="mt-2 mb-0">Git</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  
-  <footer class="bg-dark text-white py-4">
-    <div class="container d-flex justify-content-between align-items-center flex-wrap">
-      <!-- Sección Izquierda -->
-      <div class="left-section text-center text-md-start">
-        <p>Copyright &copy; <span id="year"></span> Todos los derechos reservados</p>
-        <div class="social-icons mt-1">
-          <a href="https://www.linkedin.com/in/doris-condori-limachi/" target="_blank" class="text-white me-2"><i class="fab fa-linkedin"></i></a>
-          <a href="https://github.com/doriscl10" target="_blank" class="text-white me-2"><i class="fab fa-github"></i></a>
-          <a href="https://www.instagram.com/ris10____/" target="_blank" class="text-white me-2"><i class="fab fa-instagram"></i></a>
-          <a href="https://wa.me/qr/6IF2EVUONVFGP1" target="_blank" class="text-white"><i class="fab fa-whatsapp"></i></a>
-        </div>
-      </div>
-      <!-- Sección Derecha -->
-      <div class="right-section text-center text-md-end">
-        <a href="#about" class="text-white text-decoration-none me-3">Sobre Mí</a>
-        <a href="#experience" class="text-white text-decoration-none me-3">Experiencia</a>
-        <a href="#projects" class="text-white text-decoration-none me-3">Proyectos</a>
-        <a href="#tecs" class="text-white text-decoration-none me-3">Tecnologías</a>
-      </div>
-    </div>
-  </footer>
-  
+    </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
-  <script src="main.js"></script>
-      
-  
-</body>
+    <footer class="bg-dark text-white py-4">
+      <div
+        class="container d-flex justify-content-between align-items-center flex-wrap"
+      >
+        <!-- Sección Izquierda -->
+        <div class="left-section text-center text-md-start">
+          <p>
+            Copyright &copy; <span id="year"></span> Todos los derechos
+            reservados
+          </p>
+          <div class="social-icons mt-1">
+            <a
+              href="https://www.linkedin.com/in/doris-condori-limachi/"
+              target="_blank"
+              class="text-white me-2"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/doriscl10"
+              target="_blank"
+              class="text-white me-2"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/ris10____/"
+              target="_blank"
+              class="text-white me-2"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://wa.me/qr/6IF2EVUONVFGP1"
+              target="_blank"
+              class="text-white"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+        <!-- Sección Derecha -->
+        <div class="right-section text-center text-md-end">
+          <a href="#about" class="text-white text-decoration-none me-3"
+            >Sobre Mí</a
+          >
+          <a href="#experience" class="text-white text-decoration-none me-3"
+            >Experiencia</a
+          >
+          <a href="#projects" class="text-white text-decoration-none me-3"
+            >Proyectos</a
+          >
+          <a href="#tecs" class="text-white text-decoration-none me-3"
+            >Tecnologías</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
 </html>
